@@ -15,12 +15,18 @@ small{
     color: gray;
 }
 section{
-    margin: 150px;
+    padding: 150px;
     text-align: center;
+}
+.sub-heading{
+    font-size: 30px;
+}
+span{
+    color: #E55473;
 }
 /* Header CSS */
 .header-container{
-    background-color: #f7d3db;
+    background-color: #f7e7ea;
     display: flex;
     align-items: center;
     padding: 50px 150px;
@@ -40,17 +46,17 @@ section{
     display: flex;
     margin-top: 50px;
     height: 350px;
-    width: 100%;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-between;
 }
 .feature-img img{
     height: 300px;
-    width: 250px;
+    width: 100%;
 }
 .feature-img1, .feature-img2, .feature-img3{
-    padding: 50px 20px 0px 20px;
+    padding-top: 50px;
     border-radius: 50% 50% 0% 0%;
+    width: 300px;
 }
 .feature-img1{
     background-color: #f7d3db;
@@ -65,4 +71,16 @@ section{
     font-weight: bold;
     color: rgb(94, 93, 93);
     text-decoration: underline;
+}
+/* Hot Deal CSS */
+.hotdeal-text{
+    text-align: center;
+}
+.hotdeal-img img{
+    height: 250px;
+}
+/* Instragram CSS */
+.instragram-text{
+    width: 50%;
+    margin: 0 auto;
 }
