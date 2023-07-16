@@ -84,3 +84,18 @@ span{
     width: 50%;
     margin: 0 auto;
 }
+/* Latest Deal CSS */
+.latest-deal{
+    background-image: url('./Flower Asset/Rectangle9.png');
+    margin: 0px 150px;
+    padding: 50px;
+}
+input{
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    width: 400px
+}
