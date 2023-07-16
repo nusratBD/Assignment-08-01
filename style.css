@@ -99,6 +99,31 @@ input{
     margin: 5px;
     width: 400px
 }
+/* Bonus CSS */
+.bonus{
+    margin: 150px;
+    padding: 50px;
+    background-color: #f7e7ea;
+    color: gray;
+    font-weight: bold;
+}
+.bonus-form{
+    width: 55%;
+    margin: 0 auto;
+    text-align: left
+}
+input[type=checkbox] {
+    width: 30px;
+  }
+select{
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 5px;
+  }
+  .select-flower{
+    display: flex;
+    justify-content: space-between;
+  }
 /* Footer CSS */
 .footer{
     background-color: black;
