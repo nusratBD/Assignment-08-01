@@ -99,3 +99,13 @@ input{
     margin: 5px;
     width: 400px
 }
+/* Footer CSS */
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+}
+.footer-note{
+    width: 50%;
+    margin: 0 auto;
+}
