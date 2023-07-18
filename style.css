@@ -1,9 +1,10 @@
 /* Common CSS */
-body{
+body {
     margin: 0 auto;
     font-family: 'Lucida Sans';
 }
-button{
+
+button {
     background-color: #E55473;
     border: 0;
     padding: 12px 20px;
@@ -11,87 +12,109 @@ button{
     color: white;
     font-weight: bold;
 }
-small{
+
+small {
     color: gray;
 }
-section{
+
+section {
     padding: 150px;
     text-align: center;
 }
-.sub-heading{
+
+.sub-heading {
     font-size: 30px;
 }
-span{
+
+span {
     color: #E55473;
 }
+
 /* Header CSS */
-.header-container{
+.header-container {
     background-color: #f7e7ea;
     display: flex;
     align-items: center;
     padding: 50px 150px;
 }
-.header-content{
+
+.header-content {
     width: 50%;
     padding: 15px;
 }
-.header-content h1{
+
+.header-content h1 {
     font-size: 50px;
 }
-.header-content img{
+
+.header-content img {
     height: 635px;
 }
+
 /* Featured Flower Section CSS */
-.feature-img{
+.feature-img {
     display: flex;
     margin-top: 50px;
     height: 350px;
     gap: 20px;
     justify-content: space-between;
 }
-.feature-img img{
+
+.feature-img img {
     height: 300px;
     width: 100%;
 }
-.feature-img1, .feature-img2, .feature-img3{
+
+.feature-img1,
+.feature-img2,
+.feature-img3 {
     padding-top: 50px;
     border-radius: 50% 50% 0% 0%;
     width: 300px;
 }
-.feature-img1{
+
+.feature-img1 {
     background-color: #f7d3db;
 }
-.feature-img2{
+
+.feature-img2 {
     background-color: rgb(212, 239, 250);
 }
-.feature-img3{
+
+.feature-img3 {
     background-color: rgb(224, 223, 223);
 }
-.feature-img-label{
+
+.feature-img-label {
     font-weight: bold;
     color: rgb(94, 93, 93);
     text-decoration: underline;
 }
+
 /* Hot Deal CSS */
-.hotdeal-text{
+.hotdeal-text {
     text-align: center;
 }
-.hotdeal-img img{
+
+.hotdeal-img img {
     height: 250px;
 }
+
 /* Instragram CSS */
-.instragram-text{
+.instragram-text {
     width: 50%;
     margin: 0 auto;
 }
+
 /* Latest Deal CSS */
-.latest-deal{
+.latest-deal {
     background-image: url('./Flower Asset/Rectangle9.png');
     margin: 0px 150px;
     padding: 50px;
     border-radius: 5px
 }
-input{
+
+input {
     border: 0;
     padding: 12px 20px;
     border-radius: 10px;
@@ -100,8 +123,9 @@ input{
     margin: 5px;
     width: 400px
 }
+
 /* Bonus CSS */
-.bonus{
+.bonus {
     margin: 150px;
     padding: 50px;
     background-color: #f7e7ea;
@@ -109,40 +133,49 @@ input{
     font-weight: bold;
     border-radius: 5px;
 }
-.bonus-form{
+
+.bonus-form {
     width: 65%;
     margin: 0 auto;
     text-align: left
 }
+
 input[type=checkbox] {
     width: 30px;
-  }
-select{
+}
+
+select {
     color: gray;
     border: 2px solid gray;
     border-radius: 5px;
-  }
-  .select-flower{
+}
+
+.select-flower {
     display: flex;
     justify-content: space-between;
-  }
-  .payment-container{
+}
+
+.payment-container {
     display: flex;
     flex-direction: column;
-  }
-  .payment{
+}
+
+.payment {
     display: flex;
-  }
-  input[type=radio]{
+}
+
+input[type=radio] {
     width: 25px
-  }
+}
+
 /* Footer CSS */
-.footer{
+.footer {
     background-color: black;
     text-align: center;
     padding: 100px;
 }
-.footer-note{
+
+.footer-note {
     width: 50%;
     margin: 0 auto;
 }
