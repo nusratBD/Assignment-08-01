@@ -96,16 +96,16 @@
         </section>
         <!-- Bonus -->
         <section class="bonus">
-            <h2>Order Flower</h2>
+            <h2 style="color: black;">Order <span>Flower</span></h2>
             <form class="bonus-form">
                 <label for="email">Email: </label>
-                <input placeholder="Enter Your Email Here...." type="email" id="email">
+                <input placeholder="Enter Your Email Here...." type="email" id="email" style="width: 83%;">
                 <fieldset>
                     <legend>Select Flower</legend>
 
                     <div class="select-flower">
                         <div>
-                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label>Rose</label>
+                            <input type="checkbox" id="flower" name="flower" value="Bike"><label>Rose</label>
                         </div>
                         <div>
                             <select>
@@ -120,7 +120,8 @@
                     </div>
                     <div class="select-flower">
                         <div>
-                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label>Rojoni Gondha</label>
+                            <input type="checkbox" id="flower" name="flower" value="Bike"><label>Rojoni
+                                Gondha</label>
                         </div>
                         <div>
                             <select>
@@ -135,7 +136,7 @@
                     </div>
                     <div class="select-flower">
                         <div>
-                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label>Gadha</label>
+                            <input type="checkbox" id="flower" name="flower" value="Bike"><label>Gadha</label>
                         </div>
                         <div>
                             <select>
@@ -149,8 +150,41 @@
                         </div>
                     </div>
                     <br>
-            </fieldset>
-
+                </fieldset>
+                <fieldset>
+                    <legend>Select Payment Option</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="radio" class="radio-input" name="payment">
+                            </td>
+                            <td>
+                                <label>Bkash Manual</label>
+                            </td>
+                            <td>
+                                <input type="radio" class="radio-input" name="payment">
+                            </td>
+                            <td>
+                                <label>Bkash Online</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" class="radio-input" name="payment">
+                            </td>
+                            <td>
+                                <label>Nogod</label>
+                            </td>
+                            <td>
+                                <input type="radio" class="radio-input" name="payment">
+                            </td>
+                            <td>
+                                <label>ROCKET</label>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <button style="margin-top: 10px;">Checkout</button>
             </form>
         </section>
     </main>
