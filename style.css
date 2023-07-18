@@ -133,7 +133,7 @@ select{
   .payment{
     display: flex;
   }
-  .radio-input{
+  input[type=radio]{
     width: 25px
   }
 /* Footer CSS */
